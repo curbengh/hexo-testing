@@ -79,7 +79,5 @@ theme: typing
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:weyusi/weyusi.github.io.git
-  branch: master
-  name: weyusi
-  email: weyusi@users.noreply.github.com
+  repo: git@github.com:weyusi/hexo-testing.git
+  branch: gh-pages
