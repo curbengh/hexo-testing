@@ -66,8 +66,8 @@ gitment:
 # NOTICE) make sure the app is installed on the repo before using this commit system
 # see https://utteranc.es/ for more
 utterances:
-  enable: false
-  repo: # your repo in this format: 'username/reponame', note that there is no '.git' suffix
+  enable: true
+  repo: weyusi/hexo-testing
 
 # If you want to use valine,you should get the appId and appKey form https://leancloud.cn ,more setting please see https://valine.js.org
 valine:
