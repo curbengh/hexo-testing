@@ -6,9 +6,9 @@ dark: false
 
 # Header
 menu:
-  Home: /hexo-testing
-  Archives: /hexo-testing/archives
-  About: /hexo-testing/about
+  Home: /
+  Archives: /archives
+  About: /about
 
 # Your Feed Location
 #rss: /atom.xml
