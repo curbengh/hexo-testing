@@ -14,7 +14,7 @@ menu:
 #rss: /atom.xml
 
 # Content
-fancybox: false
+fancybox: true
 
 
 # Miscellaneous
