@@ -42,6 +42,7 @@ body {
   position: relative;
   box-sizing: border-box;
   color: $black-light;
+  background: inheret;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -524,7 +525,6 @@ $dark-white-light: #fff;
 
 .dark {
   background-color: $dark-bg;
-  background: $dark-bg;
   color: $dark-color;
   .container,
   .footer {
