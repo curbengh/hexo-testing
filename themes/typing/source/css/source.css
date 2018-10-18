@@ -524,6 +524,7 @@ $dark-white-light: #fff;
 
 .dark {
   background-color: $dark-bg;
+  background: $dark-bg;
   color: $dark-color;
   .container,
   .footer {
