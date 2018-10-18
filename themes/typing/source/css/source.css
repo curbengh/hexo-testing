@@ -42,7 +42,7 @@ body {
   position: relative;
   box-sizing: border-box;
   color: $black-light;
-  background: inheret;
+  background: inherit;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
