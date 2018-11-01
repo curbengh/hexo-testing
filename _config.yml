@@ -80,5 +80,3 @@ theme: typing
 deploy:
   type:
 
-nofollow:
-  enable: true
