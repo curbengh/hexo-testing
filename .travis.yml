@@ -1,9 +1,7 @@
 language: node_js
 node_js:
   - node # use latest version of nodejs
-cache:
-  directories:
-    - "node_modules" # cache the modules for faster build
+cache: false
 branches:
   only:
     - master
