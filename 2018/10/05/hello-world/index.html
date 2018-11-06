@@ -12,7 +12,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-01T07:43:18.708Z">
+<meta property="og:updated_time" content="2018-11-06T23:53:15.257Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
@@ -35,12 +35,22 @@
       <div id="container" class="container">
         <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
   <header id="header" class="header">
-    <div class="mobile-nav">
+    <nav class="mobile-nav">
       <h1 class="nickname">NickName</h1>
-      <a id="menu">
-        &#9776; Menu
-      </a>
-    </div>
+      <ul id="mobile-nav-menu">
+      <label for="menu-toggle"><a>&#9776; Menu</a></label>
+      <input type="checkbox" id="menu-toggle">
+      <ul id="menu">
+      
+        <a href="/hexo-testing/">Home</a>
+      
+        <a href="/hexo-testing/archives">Archives</a>
+      
+        <a href="/hexo-testing/about">About</a>
+      
+      </ul>
+      </ul>
+    </nav>
     
         <nav id="main-nav" class="main-nav nav-left">
     
@@ -120,22 +130,6 @@
   </div>
   
     
-<nav id="article-nav" class="article-nav">
-  
-    <a href="/hexo-testing/2018/10/06/fancybox-test/" id="article-nav-newer" class="article-nav-link-wrap newer">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          fancybox-test
-        
-      </div>
-    </a>
-  
-  
-    <span id="article-nav-older" class="article-nav-link-wrap older"></span>
-  
-</nav>
-
 
   
 </article>
