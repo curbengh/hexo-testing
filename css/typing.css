@@ -887,7 +887,7 @@ pre .javascript .function,pre .keyword{
       display:none
     }
     #menu-toggle:checked + #menu{
-        border: 2px solid #999;
+        border: 2px solid #cfcfcf;
         border-radius: 3px;
         display:grid;
         margin: 5px;
