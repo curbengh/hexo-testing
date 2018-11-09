@@ -888,11 +888,11 @@ pre .javascript .function,pre .keyword{
     }
     #menu-toggle:checked + #menu{
         border: 2px solid #999;
-        border-radius: 5px;
-        display:block;
+        border-radius: 3px;
+        display:grid;
         margin: 5px;
-        padding: 5px;
-        text-align: center
+        padding: 5px 20px;
+        text-align: left
     }
     .header-hr-left{
         display:block
