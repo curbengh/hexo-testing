@@ -3,7 +3,7 @@ html{
     color:#333;
     background:#fff;
     -ms-text-size-adjust:100%;
-    text-rendering:optimizelegibility
+    text-rendering:optimizelegibility;
 }
 html.borderbox *,html.borderbox :after,html.borderbox :before{
     box-sizing:border-box
@@ -857,16 +857,39 @@ pre .coffeescript .title,pre .function,pre .javascript .title,pre .perl .sub,pre
 pre .javascript .function,pre .keyword{
     color:#8959a8
 }
-/* hide the checkbox and mobile nav menu */
-.mobile-nav,#menu-toggle,#menu{
-	display: none
+/* hide mobile nav menu and its checkbox */
+/* when it's not mobile */
+.mobile-nav,
+#mobile-menu-toggle,
+.mobile-nav-link {
+  display: none;
 }
-/* align the text (in nav menu) to right */
+
 /* set line-height in /archives page */
-#mobile-nav-menu{
-	text-align: right;
-  line-height: 1.8
+.mobile-nav-menu {
+  line-height: 1.8;
 }
+
+.mobile-nav-link {
+  background: #fff;
+  border: 2px solid #999;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px 20px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+}
+
+.dark .mobile-nav-link {
+  background: #3f3f3f;
+}
+
+.article {
+  position: relative;
+}
+
+
 @media (max-width:768px){
     body{
         font-size:18px
@@ -883,16 +906,11 @@ pre .javascript .function,pre .keyword{
     .mobile-nav{
       display:block
     }
-    .main-nav,#menu{
+    .main-nav/*,.mobile-nav-link*/{
       display:none
     }
-    #menu-toggle:checked + #menu{
-        border: 2px solid #cfcfcf;
-        border-radius: 3px;
-        display:grid;
-        margin: 5px;
-        padding: 5px 20px;
-        text-align: left
+    #mobile-menu-toggle:checked + .mobile-nav-link{
+      display: grid;
     }
     .header-hr-left{
         display:block
