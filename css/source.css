@@ -698,7 +698,7 @@ $highlight-purple: #8959a8;
 
 
 
-@define-extend code-block {
+%code-block {
   padding: 20px;
   background: $code-background;
   color: $highlight-foreground;
@@ -707,7 +707,7 @@ $highlight-purple: #8959a8;
   line-height: $code-line-height;
 }
 
-@define-extend line-numbers {
+%line-numbers {
   color: $grey;
   font-size: $code-font-size;
 }
@@ -717,7 +717,7 @@ $highlight-purple: #8959a8;
     margin: 0;
   }
   pre {
-    @extend code-block;
+    @extend %code-block;
     code {
       background: none;
       text-shadow: none;
@@ -725,7 +725,7 @@ $highlight-purple: #8959a8;
     }
   }
   .highlight {
-    @extend code-block;
+    @extend %code-block;
     pre {
       border: 0;
       margin: 0;
@@ -749,7 +749,7 @@ $highlight-purple: #8959a8;
       padding-right: 10px;
     }
     .gutter pre {
-      @extend line-numbers;
+      @extend %line-numbers;
     }
     .line {
       height: 25px;
