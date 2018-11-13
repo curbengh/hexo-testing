@@ -509,9 +509,56 @@ blockquote {
   margin: 50px auto 0 auto;
 }
 
+/************  mobile navigation menu  ***********/
+/* hide mobile nav menu and its checkbox */
+/* when it's not mobile */
+.mobile-nav,
+#mobile-menu-toggle,
+.mobile-nav-link {
+  display: none;
+}
 
+/* set line-height in /archives page */
+.mobile-nav-menu {
+  line-height: 1.8;
+  position: relative;
+}
 
+/* set appearance of links */
+.mobile-nav-link {
+  background: #fff;
+  border: 2px solid #999;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px 20px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+}
 
+.dark .mobile-nav-link {
+  background: #3f3f3f;
+}
+
+@media (max-width: 768px) {
+  /* hide desktop nav */
+  .main-nav {
+    display:none
+  }
+
+  /* display mobile nav */
+  .mobile-nav{
+    display:block
+  }
+
+  /* display links when menu button is clicked */
+  /* use grid to display each link in new line */
+  #mobile-menu-toggle:checked + .mobile-nav-link {
+    display: grid;
+  }
+}
+
+/************  mobile navigation menu end ***********/
 
 /************  dark mode  ***********/
 $dark-bg: #3f3f3f;
@@ -699,6 +746,9 @@ $highlight-purple: #8959a8;
         float: right;
       }
     }
+    .gutter {
+      padding-right: 10px;
+    }
     .gutter pre {
       @extend line-numbers;
     }
@@ -778,16 +828,13 @@ pre {
   body {
     font-size: 18px;
   }
-
   .archive-footer, .post-footer {
     width: $mobile-content-width;
   }
-
   .home {
     .content {
       width: $mobile-content-width;
     }
-
   }
   .archive-container {
     width: $mobile-content-width;
@@ -801,7 +848,6 @@ pre {
   .comments {
     width: $mobile-content-width;
   }
-
   .nav-left {
     position: relative;
     left: initial;
