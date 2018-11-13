@@ -8,7 +8,7 @@ $black-light: #222;
 $grey: #aeb4b9;
 $grey-bold: #777;
 $grey-light: #cacdd0;
-$scooter: #22C5E5;
+$scooter: #22c5e5;
 $content-width: 60%;
 $content-max-width: 700px;
 $mobile-content-width: 80%;
@@ -16,8 +16,8 @@ $mobile-content-width: 80%;
 
 @define-extend a-hover {
   color: $scooter;
-  border-bottom: solid 1px RGBA(34, 197, 229, .2);
-  transition: color 100ms linear
+  border-bottom: solid 1px rgba(34, 197, 229, .2);
+  transition: color 100ms linear;
 }
 
 @define-extend hr-base {
@@ -108,7 +108,6 @@ blockquote {
   a, b, strong {
     color: $grey;
   }
-
 }
 
 .container {
