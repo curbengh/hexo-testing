@@ -19,7 +19,7 @@ fancybox: true
 
 # Miscellaneous
 google_analytics:
-favicon: /hexo-testing/favicon.ico
+favicon: /favicon.ico
 twitter:
 google_plus:
 fb_admins:
@@ -31,24 +31,24 @@ nickname: NickName
 description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Fusce eget urna vitae velit *eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque* penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae [libero pharetra](http://hexo.io) adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam.
 
 # Load fontawesome icons? Also see the links option
-icons: true
+icons: false
 
 # Footer area links
 # NOTICE) If you set "icons: false" link names will be clear text
 # If "icons: true" link names will interpreted as fontawesome icon names
 # NOTICE) Use the fontawesome icon names without the fa- prefix (http://fontawesome.io/cheatsheet/)
 links:
-  book: /hexo-testing/archives/
+  book: /archives/
   globe: https://github.com/geekplux/hexo-theme-typing
   twitter: https://twitter.com/
   github-alt: https://github.com/
   youtube-play: https://www.youtube.com/
   stack-overflow: https://stackoverflow.com/
   google-plus: https://plus.google.com/
-  rss: /hexo-testing/atom.xml
+  rss: /atom.xml
 
 # nav position (top, left. top is default)
-nav: top
+nav: left
 
 # Info
 archive_footer_content: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Fusce eget urna vitae velit *eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque* penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Archive
@@ -66,8 +66,8 @@ gitment:
 # NOTICE) make sure the app is installed on the repo before using this commit system
 # see https://utteranc.es/ for more
 utterances:
-  enable: true
-  repo: weyusi/hexo-testing
+  enable: false
+  repo: # your repo in this format: 'username/reponame', note that there is no '.git' suffix
 
 # If you want to use valine,you should get the appId and appKey form https://leancloud.cn ,more setting please see https://valine.js.org
 valine:
@@ -84,10 +84,10 @@ valine:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   github: https://github.com/geekplux
   paypal: https://www.paypal.me/geekplux
   bitcoin: 1AVngxh56oLvAzXsEFnzccUohZdHswjC7j
-  BTCQR: https://i.postimg.cc/rDjYGycW/bitcoin.png
-  AliPayQR: https://i.postimg.cc/svpLX9NT/alipay_QR.png
-  WeChatQR: https://i.postimg.cc/VSNZKyLh/wechat_QR.png
+  BTCQR: http://7b1evr.com1.z0.glb.clouddn.com/donate/bitcoin.png
+  AliPayQR: http://7b1evr.com1.z0.glb.clouddn.com/donate/alipayQR.jpg
+  WeChatQR: http://7b1evr.com1.z0.glb.clouddn.com/donate/wechatQR.jpg
