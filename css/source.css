@@ -14,19 +14,19 @@ $content-max-width: 700px;
 $mobile-content-width: 80%;
 
 
-@extend a-hover {
+@define-extend a-hover {
   color: $scooter;
   border-bottom: solid 1px rgba(34, 197, 229, .2);
   transition: color 100ms linear;
 }
 
-@extend hr-base {
+@define-extend hr-base {
   height: 1px;
   border: 0;
   background-image: -webkit-linear-gradient(0deg, transparent, #d5d5d5, transparent);
 }
 
-@extend nav-link-base {
+@define-extend nav-link-base {
   margin-right: 10px;
   color: $grey-bold;
   padding-bottom: 5px;
@@ -698,7 +698,7 @@ $highlight-purple: #8959a8;
 
 
 
-@extend code-block {
+@define-extend code-block {
   padding: 20px;
   background: $code-background;
   color: $highlight-foreground;
@@ -707,7 +707,7 @@ $highlight-purple: #8959a8;
   line-height: $code-line-height;
 }
 
-@extend line-numbers {
+@define-extend line-numbers {
   color: $grey;
   font-size: $code-font-size;
 }
