@@ -535,13 +535,10 @@ blockquote {
   text-align: left;
 }
 
+
+
 .dark .mobile-nav-link {
   background: #3f3f3f;
-}
-
-/* don't underline links in mobile nav */
-.no-underline {
-  border-bottom: none;
 }
 
 @media (max-width: 768px) {
@@ -559,6 +556,12 @@ blockquote {
   /* use grid to display each link in new line */
   #mobile-menu-toggle:checked + .mobile-nav-link {
     display: grid;
+  }
+
+  /* don't underline links in mobile nav */
+  .mobile-nav a,
+  .mobile-nav a:hover {
+    border-bottom: none;
   }
 }
 
