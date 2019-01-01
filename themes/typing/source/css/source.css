@@ -539,6 +539,11 @@ blockquote {
   background: #3f3f3f;
 }
 
+/* don't underline links in mobile nav */
+.no-underline {
+  border-bottom: none;
+}
+
 @media (max-width: 768px) {
   /* hide desktop nav */
   .main-nav {
