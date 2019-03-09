@@ -80,3 +80,4 @@ theme: typing
 deploy:
   type:
 
+neat_enable: true
