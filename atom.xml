@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/hexo-testing/atom.xml" rel="self"/>
+  
+  <link href="https://weyusi.github.io/hexo-testing/"/>
+  <updated>2019-03-09T04:26:04.994Z</updated>
+  <id>https://weyusi.github.io/hexo-testing/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Test post for post_link tag</title>
+    <link href="https://weyusi.github.io/hexo-testing/2018/11/01/test-post/"/>
+    <id>https://weyusi.github.io/hexo-testing/2018/11/01/test-post/</id>
+    <published>2018-11-01T00:00:00.000Z</published>
+    <updated>2019-03-09T04:26:04.994Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>Using post title:</li></ol><p>Testing a <a href>link</a>.</p><ol start="2"><li>Using filename:</li></ol>/hexo-testing/2018/10/15/old-post/<p>Testing a <a href="/hexo-testing/2018/10/15/old-post/">link</a>.</p><a href="/hexo-testing/2018/10/15/old-post/" title="Old post is ancient">Old post is ancient</a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;&lt;li&gt;Using post title:&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Testing a &lt;a href&gt;link&lt;/a&gt;.&lt;/p&gt;&lt;ol start=&quot;2&quot;&gt;&lt;li&gt;Using filename:&lt;/li&gt;&lt;/ol&gt;/hexo-testing/2018/10/15/old
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Update date</title>
+    <link href="https://weyusi.github.io/hexo-testing/2018/10/30/updated-date/"/>
+    <id>https://weyusi.github.io/hexo-testing/2018/10/30/updated-date/</id>
+    <published>2018-10-30T00:00:00.000Z</published>
+    <updated>2019-03-09T04:26:04.994Z</updated>
+    
+    <content type="html"><![CDATA[<p>testing updated date</p>/hexo-testing/2018/10/05/hello-world/ <a href="/hexo-testing/2018/10/05/hello-world/" title="Hello World">Hello World</a><p>Test a <a href="!--￼2--">link</a></p><p>This is a <a href="/hexo-testing/2018/10/05/hello-world/">test link</a></p><p>Test a <a href="/hexo-testing/2018/10/05/hello-world/">link</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;testing updated date&lt;/p&gt;/hexo-testing/2018/10/05/hello-world/ &lt;a href=&quot;/hexo-testing/2018/10/05/hello-world/&quot; title=&quot;Hello World&quot;&gt;Hello W
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Old post is ancient</title>
+    <link href="https://weyusi.github.io/hexo-testing/2018/10/15/old-post/"/>
+    <id>https://weyusi.github.io/hexo-testing/2018/10/15/old-post/</id>
+    <published>2018-10-15T00:00:00.000Z</published>
+    <updated>2019-03-09T04:26:04.994Z</updated>
+    
+    <content type="html"><![CDATA[<table><thead><tr><th>StarHub</th><th>China Unicom HK</th></tr></thead><tbody><tr><td>Pros:<br>- Support <a href="http://www.starhub.com/personal/mobile/mobile-phones-plans/prepaid-cards/happy-roam.html#hr_plans" target="_blank" rel="noopener">more countries</a><br>- Can be kept active</td><td>Pros:<br>- Widely available online<br>- Does not require ID</td></tr><tr><td>Cons:<br>- Only available at Singapore Airport</td><td>Cons:<br>- One-time use only*<br>- Support only Mainland China.**</td></tr></tbody></table><p>* Except for <a href="https://res.cloudinary.com/curben/image/upload/20181231/unicom-cross-border.jpg" target="_blank" rel="noopener">this product</a>.<br>** Some plans include Hong Kong, Macau or Taiwan.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;StarHub&lt;/th&gt;&lt;th&gt;China Unicom HK&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Pros:&lt;br&gt;- Support &lt;a href=&quot;http://www.starhub.com/per
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>fancybox-test</title>
+    <link href="https://weyusi.github.io/hexo-testing/2018/10/06/fancybox-test/"/>
+    <id>https://weyusi.github.io/hexo-testing/2018/10/06/fancybox-test/</id>
+    <published>2018-10-06T00:00:00.000Z</published>
+    <updated>2019-03-09T04:26:04.994Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.postimg.cc/Y0dRdD5c/dakota-macek-1087562-unsplash.jpg" alt></p><p><img src="https://i.postimg.cc/8cpwBgnB/finding-dan-dan-grinwis-1086551-unsplash.jpg" alt></p><p><img src="https://i.postimg.cc/W3P5zkGy/loverna-journey-1087767-unsplash.jpg" alt></p><p><img src="https://i.postimg.cc/FKSPhZLc/matthew-ronder-seid-1087407-unsplash.jpg" alt></p><p><img src="https://i.postimg.cc/0QdcwyZy/peter-kasprzyk-1087738-unsplash.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://i.postimg.cc/Y0dRdD5c/dakota-macek-1087562-unsplash.jpg&quot; alt&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://i.postimg.cc/8cpwBgnB/finding-dan
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://weyusi.github.io/hexo-testing/2018/10/05/hello-world/"/>
+    <id>https://weyusi.github.io/hexo-testing/2018/10/05/hello-world/</id>
+    <published>2018-10-05T00:00:00.000Z</published>
+    <updated>2019-03-09T04:26:04.994Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
