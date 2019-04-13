@@ -17,6 +17,6 @@
     "hexo-renderer-marked": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3",
-    "hexo-yam": "git://github.com/weyusi/hexo-yam.git#xml-json"
+    "hexo-yam": "git://github.com/weyusi/hexo-yam.git#file-ext"
   }
 }
