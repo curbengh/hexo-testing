@@ -6,7 +6,7 @@
   <link href="/hexo-testing/atom.xml" rel="self"/>
   
   <link href="https://weyusi.github.io/hexo-testing/"/>
-  <updated>2019-04-13T10:04:29.584Z</updated>
+  <updated>2019-04-14T04:24:16.339Z</updated>
   <id>https://weyusi.github.io/hexo-testing/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://weyusi.github.io/hexo-testing/2018/11/01/test-post/"/>
     <id>https://weyusi.github.io/hexo-testing/2018/11/01/test-post/</id>
     <published>2018-11-01T00:00:00.000Z</published>
-    <updated>2019-04-13T10:04:29.584Z</updated>
+    <updated>2019-04-14T04:24:16.339Z</updated>
     
     <content type="html"><![CDATA[<ol><li>Using post title:</li></ol><p>Testing a <a href>link</a>.</p><ol start="2"><li>Using filename:</li></ol>/hexo-testing/2018/10/15/old-post/<p>Testing a <a href="/hexo-testing/2018/10/15/old-post/">link</a>.</p><a href="/hexo-testing/2018/10/15/old-post/" title="Old post is ancient">Old post is ancient</a>]]></content>
     
@@ -51,7 +51,7 @@
     <link href="https://weyusi.github.io/hexo-testing/2018/10/30/updated-date/"/>
     <id>https://weyusi.github.io/hexo-testing/2018/10/30/updated-date/</id>
     <published>2018-10-30T00:00:00.000Z</published>
-    <updated>2019-04-13T10:04:29.584Z</updated>
+    <updated>2019-04-14T04:24:16.339Z</updated>
     
     <content type="html"><![CDATA[<p>testing updated date</p>/hexo-testing/2018/10/05/hello-world/<a href="/hexo-testing/2018/10/05/hello-world/" title="Hello World">Hello World</a><p>Test a <a href="!--￼2--">link</a></p><p>This is a <a href="/hexo-testing/2018/10/05/hello-world/">test link</a></p><p>Test a <a href="/hexo-testing/2018/10/05/hello-world/">link</a></p>]]></content>
     
@@ -74,7 +74,7 @@
     <link href="https://weyusi.github.io/hexo-testing/2018/10/15/old-post/"/>
     <id>https://weyusi.github.io/hexo-testing/2018/10/15/old-post/</id>
     <published>2018-10-15T00:00:00.000Z</published>
-    <updated>2019-04-13T10:04:29.584Z</updated>
+    <updated>2019-04-14T04:24:16.339Z</updated>
     
     <content type="html"><![CDATA[<table><thead><tr><th>StarHub</th><th>China Unicom HK</th></tr></thead><tbody><tr><td>Pros:<br>- Support <a href="http://www.starhub.com/personal/mobile/mobile-phones-plans/prepaid-cards/happy-roam.html#hr_plans" target="_blank" rel="noopener">more countries</a><br>- Can be kept active</td><td>Pros:<br>- Widely available online<br>- Does not require ID</td></tr><tr><td>Cons:<br>- Only available at Singapore Airport</td><td>Cons:<br>- One-time use only* <br>- Support only Mainland China.**</td></tr></tbody></table><p>* Except for <a href="https://res.cloudinary.com/curben/image/upload/20181231/unicom-cross-border.jpg" target="_blank" rel="noopener">this product</a>.<br>** Some plans include Hong Kong, Macau or Taiwan.</p>]]></content>
     
@@ -104,7 +104,7 @@
     <link href="https://weyusi.github.io/hexo-testing/2018/10/06/fancybox-test/"/>
     <id>https://weyusi.github.io/hexo-testing/2018/10/06/fancybox-test/</id>
     <published>2018-10-06T00:00:00.000Z</published>
-    <updated>2019-04-13T10:04:29.584Z</updated>
+    <updated>2019-04-14T04:24:16.339Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://i.postimg.cc/Y0dRdD5c/dakota-macek-1087562-unsplash.jpg" alt></p><p><img src="https://i.postimg.cc/8cpwBgnB/finding-dan-dan-grinwis-1086551-unsplash.jpg" alt></p><p><img src="https://i.postimg.cc/W3P5zkGy/loverna-journey-1087767-unsplash.jpg" alt></p><p><img src="https://i.postimg.cc/FKSPhZLc/matthew-ronder-seid-1087407-unsplash.jpg" alt></p><p><img src="https://i.postimg.cc/0QdcwyZy/peter-kasprzyk-1087738-unsplash.jpg" alt></p>]]></content>
     
@@ -126,7 +126,7 @@
     <link href="https://weyusi.github.io/hexo-testing/2018/10/05/hello-world/"/>
     <id>https://weyusi.github.io/hexo-testing/2018/10/05/hello-world/</id>
     <published>2018-10-05T00:00:00.000Z</published>
-    <updated>2019-04-13T10:04:29.584Z</updated>
+    <updated>2019-04-14T04:24:16.339Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
