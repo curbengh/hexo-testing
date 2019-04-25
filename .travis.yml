@@ -6,7 +6,7 @@ branches:
   only:
     - master
 before_install:
-  - npm install # install node packages and dependencies
+  - npm install --prod # install node packages and dependencies, excluding devDependencies
 script:
   - hexo generate # generate static files
 deploy:
