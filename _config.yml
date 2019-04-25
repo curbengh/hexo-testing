@@ -81,3 +81,5 @@ deploy:
   type:
 
 neat_enable: true
+nofollow:
+  enable: true
