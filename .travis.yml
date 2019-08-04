@@ -1,15 +1,19 @@
 language: node_js
+
 node_js:
-  - node # use latest version of nodejs
+  - node
+
 cache: false
+
 sudo: false
+
 branches:
   only:
     - master
-before_install:
-  - npm install --prod # install node packages and dependencies, excluding devDependencies
+
 script:
   - hexo generate # generate static files
+
 deploy:
   provider: pages
   skip-cleanup: true
