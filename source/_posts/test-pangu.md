@@ -5,6 +5,8 @@ date: 2018-10-05 00:00:00
 
 Text: 中文abc中文中1.文送xyzり仮名한1cc2글
 
+A new paragraph, 中文abc中文中1.文送xyzり仮名한1cc2글,中文abc中文中1.文送xyzり仮名한1cc2글
+
 URL: `[中文a](http://仮名a1한.com)` -> [中文a](http://仮名a1한.com)
 
 post_link: 
@@ -17,6 +19,8 @@ becomes
 {% post_link 1文送x 'Custom Title' %}
 
 ## Heading 1中文abc中文中1.
+
+中文abc中文中1.文送xyzり仮名한1cc2글,中文abc中文中1.文送xyzり仮名한1cc2글
 
 ### Heading 1.1仮名xy한
 
