@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://weyusi.github.io/hexo-testing/
+url: https://curbengh.github.io/hexo-testing/
 root: /hexo-testing/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
