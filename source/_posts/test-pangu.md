@@ -7,11 +7,18 @@ Text: 中文abc中文中1.文送xyzり仮名한1cc2글
 
 URL: `[中文a](http://仮名a1한.com)` -> [中文a](http://仮名a1한.com)
 
-post_link: `{% post_link 1文送x 'Custom Title' %}` {% post_link 1文送x 'Custom Title' %}
+post_link: 
 
-## 中文abc中文中1.
+{% raw %}
+{% post_link 1文送x 'Custom Title' %}
+{% endraw %}
 
-### 仮名xy한
+becomes 
+{% post_link 1文送x 'Custom Title' %}
+
+## Heading 1中文abc中文中1.
+
+### Heading 1.1仮名xy한
 
 ``` markdown
 [中文a](http://仮名한.com)
