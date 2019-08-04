@@ -7,7 +7,11 @@ Text: 中文abc中文中1.文送xyzり仮名한1cc2글
 
 A new paragraph, 中文abc中文中1.文送xyzり仮名한1cc2글,中文abc中文中1.文送xyzり仮名한1cc2글
 
-URL: `[中文a](http://仮名a1한.com)` -> [中文a](http://仮名a1한.com)
+URL: `[中文abc中文中](http://中文abc中文中.com)` -> [中文abc中文中](http://中文abc中文中.com)
+
+`[中文a](http://仮名a1한.com)` -> [中文a](http://仮名a1한.com)
+
+lorem ipsum [中文abc中文中](http://中文abc中文中.com) epiwer, "quote".
 
 post_link: 
 
