@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.com/weyusi/hexo-testing.svg?branch=master)](https://travis-ci.com/weyusi/hexo-testing)
+[![Build Status](https://travis-ci.com/curbengh/hexo-testing.svg?branch=master)](https://travis-ci.com/curbengh/hexo-testing)
