@@ -17,7 +17,7 @@ $mobile-content-width: 80%;
 %a-hover {
   color: $scooter;
   border-bottom: solid 1px rgba(34, 197, 229, .2);
-  transition: color 100ms linear;
+  transition: color 100ms linear
 }
 
 %hr-base {
@@ -108,6 +108,7 @@ blockquote {
   a, b, strong {
     color: $grey;
   }
+
 }
 
 .container {
@@ -508,6 +509,7 @@ blockquote {
   margin: 50px auto 0 auto;
 }
 
+
 /************  mobile navigation menu  ***********/
 /* hide mobile nav menu and its checkbox */
 /* when it's not mobile */
@@ -535,8 +537,6 @@ blockquote {
   text-align: left;
 }
 
-
-
 .dark .mobile-nav-link {
   background: #3f3f3f;
 }
@@ -548,8 +548,10 @@ blockquote {
   }
 
   /* display mobile nav */
-  .mobile-nav{
-    display:block
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   /* display links when menu button is clicked */
@@ -558,14 +560,14 @@ blockquote {
     display: grid;
   }
 
-  /* don't underline links in mobile nav */
+    /* don't underline links in mobile nav */
   .mobile-nav a,
   .mobile-nav a:hover {
     border-bottom: none;
   }
 }
-
 /************  mobile navigation menu end ***********/
+
 
 /************  dark mode  ***********/
 $dark-bg: #3f3f3f;
@@ -835,13 +837,16 @@ pre {
   body {
     font-size: 18px;
   }
+
   .archive-footer, .post-footer {
     width: $mobile-content-width;
   }
+
   .home {
     .content {
       width: $mobile-content-width;
     }
+
   }
   .archive-container {
     width: $mobile-content-width;
@@ -855,6 +860,7 @@ pre {
   .comments {
     width: $mobile-content-width;
   }
+
   .nav-left {
     position: relative;
     left: initial;

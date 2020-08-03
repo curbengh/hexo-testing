@@ -35,7 +35,7 @@
     (function() {
       var utterances = document.createElement('script');
       var utterances_container = document.getElementById('utterances_container');
-      utterances.src='https://cdn.jsdelivr.net/npm/utterances-npmjs@1.0.0-alpha1/dist/client.min.js'
+      utterances.src='https://cdn.jsdelivr.net/npm/utterances-npmjs/dist/client.min.js'
       utterances.setAttribute('repo', '<%= theme.utterances.repo %>');
       utterances.setAttribute('issue-term', 'title');
       utterances.setAttribute('crossorigin', 'anonymous');
@@ -79,12 +79,11 @@
 <%- js('https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js') %>
 
 <% if (theme.fancybox){ %>
-  <%- css('https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css') %>
   <%- js('https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js') %>
 <% } %>
 
 <%- js('js/typing') %>
 <!--[if lt IE 9]><%- js('https://cdn.jsdelivr.net/npm/html5shiv@3/dist/html5shiv.min.js') %><![endif]-->
-<%- partial('baidu_tongji') %>
-<%- partial('google-analytics') %>
-<%- partial('gauges-analytics') %>
+<%- partial('baidu_tongji', {}, { cache: true }) %>
+<%- partial('google-analytics', {}, { cache: true }) %>
+<%- partial('gauges-analytics', {}, { cache: true }) %>
